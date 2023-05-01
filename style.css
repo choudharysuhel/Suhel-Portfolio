@@ -842,7 +842,7 @@ footer {
     }
 
     .devPic img {
-        width: 55vw;
+        width: 53vw;
         padding-top: 0px;
         margin-top: -50px;
         margin-left: 100px;
@@ -1083,10 +1083,10 @@ footer {
         padding: 0 10px;
         padding-top: 50px;
     }
-    .project-box{
+/*     .project-box{
         width: 240px;
         height: 270px;
-    }
+    } */
  }
 
 
