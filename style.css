@@ -920,10 +920,10 @@ footer {
         height: 18px;
     }
 
-    .gen-info-1 {
+/*     .gen-info-1 {
         width: 240px;
         height: 240px;
-    }
+    } */
 }
 
 @media screen and (max-width:500px) {
