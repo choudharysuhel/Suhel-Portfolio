@@ -1059,8 +1059,8 @@ footer {
 /* >>>Contact-Form-media>>>> */
 @media screen and (max-width:750px) {
     .contact-Container {
-        margin: 70px 15px;
-        padding-top: 50px;
+        margin: 0px 15px;
+        padding-top: 70px;
     }
 
     .contactform {
@@ -1070,7 +1070,7 @@ footer {
 
     .contactform h1 {
         padding: 14px 7px;
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .form-control {
@@ -1090,7 +1090,7 @@ footer {
     }
 
     .e-help {
-        font-size: 7px;
+        font-size: 9px;
     }
 
     .form-check-input {
