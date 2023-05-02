@@ -367,7 +367,7 @@ footer {
 
 
 .big-box {
-    padding-top: 2em;
+    padding-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -378,8 +378,8 @@ footer {
 }
 
 .gen-info-1 {
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 285px;
     display: flex;
     flex-direction: column;
     background-color: rgb(6 85 85 / 82%);
@@ -443,7 +443,7 @@ footer {
 /* skills section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .main-skills {
-    padding: 0px 80px;
+    padding: 20px 80px;
     padding-top: 45px;
 }
 
@@ -469,7 +469,7 @@ footer {
 
 
 .s-1 {
-    width: 98px;
+    width: 100px;
     height: 32px;
     color: white;
 }
@@ -610,7 +610,7 @@ footer {
 /* >>>>>>>>>>Work Section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .work-container {
-    width: 90vw;
+    width: 100vw;
     height: auto;
     padding-top: 60px;
     padding-left: 70px;
@@ -772,7 +772,7 @@ footer {
 @media (max-width:650px) {
 
     .sidebar {
-        width: 101vw;
+        width: 100vw;
         height: 310px;
         background-color: rgb(6, 85, 85);
     }
@@ -790,10 +790,10 @@ footer {
 
     }
 
-    .contact-Container {
+    /* .contact-Container {
         padding-top: 50px;
         margin-top: 0px;
-    }
+    } */
 
 
     .sidebar nav li {
@@ -830,7 +830,7 @@ footer {
     }
 
     .devInfo {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 60px;
     }
 
@@ -842,10 +842,12 @@ footer {
     }
 
     .devPic img {
-        width: 53vw;
-        padding-top: 0px;
-        margin-top: -50px;
-        margin-left: 100px;
+            width: 70vw;
+            position: relative;
+            padding-top: 0px;
+            margin-top: -90px;
+            margin-left: 80px;
+            z-index: -1;
     }
 
     .btn {
@@ -853,7 +855,7 @@ footer {
     }
 
     .social img {
-        width: 16px;
+        width: 18px;
         margin: 8px;
     }
 }
@@ -865,7 +867,11 @@ footer {
     }
 
     .devInfo {
-        font-size: 11px;
+        font-size: 12px;
+    }
+
+    .moreabout{
+        font-size: 14px;
     }
 
     .social img {
@@ -906,43 +912,51 @@ footer {
 
 /* >>>About-media>>>> */
 
-@media screen and (max-width:900px) {
-
-
-    .about-Container {
-        font-size: 13px;
-        padding: 30px;
-        padding-top: 50px;
+@media  (max-width:600px) { 
+    .about-container{
+        padding: 50px 10px;
     }
-
-    .gen-info-1 img {
-        width: 18px;
-        height: 18px;
-    }
-
-/*     .gen-info-1 {
-        width: 240px;
-        height: 240px;
-    } */
+    
+.info-col-1 {
+    font-size: 1.3em;
+    margin-top: 0.3em;
+    padding-bottom: 3px;
 }
 
-@media screen and (max-width:500px) {
-    .about-Container {
-        padding: 10px;
-        padding-top: 50px;
+.gd1 {
+    margin-top: 1em;
+}
+
+.gd2 {
+    margin-top: 1em;
+}
+
+.year {
+    margin: 0px 0.5em;
+    font-size: 2em;
+}
+
+.gd3 {
+    margin-top: 0.6rem;
+}
+}
+
+@media  (max-width:350px) {
+
+    .about-container {
+        padding: 50px 4px;
+    }
+    .gen-info-1 {
+        width: 270px;
+        height: 280px;
+        margin-left: 3px;
+        margin-right: 3px;
     }
 
 }
-
 
 /* >>>Skills-media>>>> */
-@media screen and (max-width:700px) {
-    .main-skills {
-        padding: 50px;
-    }
-}
-
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
 
     .main-skills {
         padding: 50px 20px;
@@ -951,19 +965,19 @@ footer {
     .main-skills p {
         margin-top: 7px;
         margin-bottom: 20px;
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
     .skill {
-        width: 280px;
-        height: 28px;
+        width: 320px;
+        height: 30px;
         margin: 20px 0px;
     }
 
     .s-1 {
-        width: 70px;
-        height: 28px;
+        width: 85px;
+        height: 30px;
     }
 
     .s-1 h5 {
@@ -974,7 +988,7 @@ footer {
     }
 
     .s-2 {
-        height: 28px;
+        height: 30px;
     }
 
     .s-3 {
@@ -983,74 +997,58 @@ footer {
 
 
     .col-1-2 {
-        width: 180px;
+        width: 200px;
     }
 
     .col-2-2 {
-        width: 150px;
+        width: 180px;
     }
 
     .col-3-2 {
-        width: 120px;
+        width: 160px;
     }
 
     .col-4-2 {
-        width: 217px;
+        width: 235px;
     }
 
     .col-4-2 span {
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
     .col-5-2 {
-        width: 217px;
+        width: 235px;
     }
 
     .col-5-2 span {
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .col-6-2 {
+        width: 180px;
+    }
+
+    .col-7-2 {
+        width: 160px;
     }
 }
 
-@media screen and (max-width:300px) {
-
-    .main-skills h1 {
-        font-size: 25px;
-    }
+@media screen and (max-width:350px) {
 
     .main-skills {
-        padding: 50px 7px;
-    }
-
-    .main-skills p {
-        margin-top: 7px;
-        margin-bottom: 13px;
-        font-size: 12px;
-
+        padding: 50px 15px;
     }
 
     .skill {
-        width: 260px;
+        width: 250px;
     }
-
-    .s-1 h5 {
-        margin-top: 6px;
-        margin-left: 4px;
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    .s-3 {
-        padding-left: 3px;
-    }
-
 
     .col-1-2 {
-        width: 160px;
+        width: 125px;
     }
 
     .col-2-2 {
-        width: 130px;
+        width: 115px;
     }
 
     .col-3-2 {
@@ -1058,37 +1056,44 @@ footer {
     }
 
     .col-4-2 {
-        width: 197px;
+        width: 165px;
     }
-
-    .col-4-2 span {
-        font-size: 13px;
-    }
-
 
     .col-5-2 {
-        width: 197px;
+        width: 165px;
     }
 
-    .col-5-2 span {
-        font-size: 13px;
+    .col-6-2 {
+        width: 115px;
+    }
+
+    .col-7-2 {
+        width: 100px;
     }
 }
 
 /* >>>Work-media>>>> */
 
- @media (max-width:500px) {
+ @media (max-width:600px) {
     .work-container{
         width: 100vw;
-        padding: 0 10px;
-        padding-top: 50px;
+        padding: 50px 10px;
     }
-/*     .project-box{
-        width: 240px;
-        height: 270px;
-    } */
+    .project-box{
+        width: 315px;
+    }
  }
-
+ @media (max-width:350px) {
+    .work-container{
+        padding: 50px 4px;
+    }
+    .project-box{
+        width: 268px;
+        height: 270px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+ }
 
 
 /* >>>Contact-Form-media>>>> */
