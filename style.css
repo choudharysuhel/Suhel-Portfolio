@@ -55,7 +55,7 @@ h4 {
     transition: transform 0.4s, top 0.4s;
 }
 
-.open-popup{
+.open-popup {
     visibility: visible;
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -87,7 +87,7 @@ h4 {
     cursor: pointer;
     border: 0;
     background-color: #46e00cc2;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     color: white;
     font-weight: 500;
     margin-top: 40px;
@@ -122,7 +122,7 @@ h4 {
 
 .f-name-1 {
     color: #624466;
-    text-shadow: 1px 1px 1px #36093d ;
+    text-shadow: 1px 1px 1px #36093d;
 }
 
 .f-profession {
@@ -756,15 +756,17 @@ footer {
         padding-top: 0px;
     }
 
-    .popup{
+    .popup {
         width: 270px;
         height: 220px;
     }
-    .popup img{
+
+    .popup img {
         width: 70px;
         margin-top: -30px;
     }
-    .popup .btn-1{
+
+    .popup .btn-1 {
         margin-top: 20px;
     }
 }
@@ -811,6 +813,7 @@ footer {
     .f-name {
         display: none;
     }
+
     .f-name-1 {
         display: none;
     }
@@ -842,12 +845,12 @@ footer {
     }
 
     .devPic img {
-            width: 70vw;
-            position: relative;
-            padding-top: 0px;
-            margin-top: -90px;
-            margin-left: 80px;
-            z-index: -1;
+        width: 70vw;
+        position: relative;
+        padding-top: 0px;
+        margin-top: -90px;
+        margin-left: 80px;
+        z-index: -1;
     }
 
     .btn {
@@ -870,7 +873,7 @@ footer {
         font-size: 12px;
     }
 
-    .moreabout{
+    .moreabout {
         font-size: 14px;
     }
 
@@ -910,50 +913,6 @@ footer {
     }
 }
 
-/* >>>About-media>>>> */
-
-@media  (max-width:600px) { 
-    .about-container{
-        padding: 50px 10px;
-    }
-    
-.info-col-1 {
-    font-size: 1.3em;
-    margin-top: 0.3em;
-    padding-bottom: 3px;
-}
-
-.gd1 {
-    margin-top: 1em;
-}
-
-.gd2 {
-    margin-top: 1em;
-}
-
-.year {
-    margin: 0px 0.5em;
-    font-size: 2em;
-}
-
-.gd3 {
-    margin-top: 0.6rem;
-}
-}
-
-@media  (max-width:350px) {
-
-    .about-container {
-        padding: 50px 4px;
-    }
-    .gen-info-1 {
-        width: 270px;
-        height: 280px;
-        margin-left: 3px;
-        margin-right: 3px;
-    }
-
-}
 
 /* >>>Skills-media>>>> */
 @media screen and (max-width:600px) {
@@ -1024,6 +983,7 @@ footer {
     .col-5-2 span {
         font-size: 14px;
     }
+
     .col-6-2 {
         width: 180px;
     }
@@ -1074,26 +1034,29 @@ footer {
 
 /* >>>Work-media>>>> */
 
- @media (max-width:600px) {
-    .work-container{
+@media (max-width:600px) {
+    .work-container {
         width: 100vw;
         padding: 50px 10px;
     }
-    .project-box{
+
+    .project-box {
         width: 315px;
     }
- }
- @media (max-width:350px) {
-    .work-container{
+}
+
+@media (max-width:350px) {
+    .work-container {
         padding: 50px 4px;
     }
-    .project-box{
+
+    .project-box {
         width: 268px;
         height: 270px;
         margin-left: 3px;
         margin-right: 3px;
     }
- }
+}
 
 
 /* >>>Contact-Form-media>>>> */
@@ -1143,4 +1106,80 @@ footer {
         margin: 12px 0px;
         margin-bottom: 30px;
     }
+}
+
+/* >>>About-media>>>> */
+@media (max-width: 600px) {
+
+    .about-container {
+        padding: 50px 15px;
+    }
+
+    .info-col-1 {
+        font-size: 1.3em;
+        margin-top: 0.3em;
+        padding-bottom: 3px;
+    }
+
+    .gd1 {
+        margin-top: 1em;
+    }
+
+    .gd2 {
+        margin-top: 1em;
+    }
+
+    .year {
+        margin: 0px 0.5em;
+        font-size: 2em;
+    }
+
+    .gd3 {
+        margin-top: 0.6rem;
+    }
+}
+
+@media (max-width:600px) {
+
+    .about-Container {
+        padding: 50px 15px;
+    }
+    
+    .info-col-1 {
+        font-size: 1.3em;
+        margin-top: 0.3em;
+        padding-bottom: 3px;
+    }
+
+    .gd1 {
+        margin-top: 1em;
+    }
+
+    .gd2 {
+        margin-top: 1em;
+    }
+
+    .year {
+        margin: 0px 0.5em;
+        font-size: 2em;
+    }
+
+    .gd3 {
+        margin-top: 0.6rem;
+    }
+
+}
+@media (max-width:350px) {
+
+    .about-Container {
+        padding: 50px 8px;
+    }
+
+    .gen-info-1 {
+        width: 270px;
+        height: 280px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
