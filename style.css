@@ -774,7 +774,7 @@ footer {
 
      .sidebar {
         position: fixed;
-        width: 200px;
+        width: 230px;
         /* height: 310px; */
         /* background-color: rgb(6, 85, 85); */
     }
@@ -789,7 +789,7 @@ footer {
     } */
 
     .sidebar nav {
-        width: 200px;
+        width: 230px;
     } 
     /* .sidebar nav {
         width: 90vw;
@@ -811,6 +811,7 @@ footer {
     .arrow {
         position: fixed;
         width: 21px;
+        margin-left: 199px;
     }
 
     /* .f-name {
@@ -867,7 +868,7 @@ footer {
     }
 }  
 
-@media (max-width:350px) {
+@media (max-width:360px) {
     .infoContainer {
         margin-top: 0px;
         margin-left: 20px;
