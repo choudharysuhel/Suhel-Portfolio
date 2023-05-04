@@ -1043,7 +1043,7 @@ footer {
 @media (max-width:600px) {
     .work-container {
         width: 100vw;
-        padding: 50px 10px;
+        padding: 70px 10px;
     }
 
     .project-box {
@@ -1053,7 +1053,7 @@ footer {
 
 @media (max-width:350px) {
     .work-container {
-        padding: 50px 4px;
+        padding: 70px 4px;
     }
 
     .project-box {
@@ -1116,40 +1116,10 @@ footer {
 }
 
 /* >>>About-media>>>> */
-@media (max-width: 600px) {
-
-    .about-container {
-        padding: 50px 15px;
-    }
-
-    .info-col-1 {
-        font-size: 1.3em;
-        margin-top: 0.3em;
-        padding-bottom: 3px;
-    }
-
-    .gd1 {
-        margin-top: 1em;
-    }
-
-    .gd2 {
-        margin-top: 1em;
-    }
-
-    .year {
-        margin: 0px 0.5em;
-        font-size: 2em;
-    }
-
-    .gd3 {
-        margin-top: 0.6rem;
-    }
-}
-
 @media (max-width:600px) {
 
     .about-Container {
-        padding: 50px 15px;
+        padding: 70px 15px;
     }
     
     .info-col-1 {
@@ -1179,7 +1149,7 @@ footer {
 @media (max-width:350px) {
 
     .about-Container {
-        padding: 50px 8px;
+        padding: 70px 8px;
     }
 
     .gen-info-1 {
