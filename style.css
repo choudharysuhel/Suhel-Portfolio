@@ -773,39 +773,49 @@ footer {
 
 @media (max-width:650px) {
 
-    .sidebar {
+     .sidebar {
+        position: fixed;
+        width: 200px;
+        /* height: 310px; */
+        /* background-color: rgb(6, 85, 85); */
+    }
+     /* .sidebar {
         width: 100vw;
         height: 310px;
         background-color: rgb(6, 85, 85);
-    }
+    } */
 
-    .sidebar img {
+    /* .sidebar img {
         display: none;
-    }
+    } */
 
     .sidebar nav {
+        width: 200px;
+    } 
+    /* .sidebar nav {
         width: 90vw;
-    }
+    }  */
 
-    .sidebar nav #home {
+    /* .sidebar nav #home {
         padding-top: 40px;
 
-    }
+    } */
 
 
-    .sidebar nav li {
+    /* .sidebar nav li {
         display: flex;
         justify-content: flex-start;
         font-size: 1.3rem;
         padding: 0.8rem 0;
-    }
+    } */
 
     .arrow {
+        position: fixed;
         width: 21px;
         margin-left: 0px;
     }
 
-    .f-name {
+    /* .f-name {
         display: none;
     }
 
@@ -815,29 +825,30 @@ footer {
 
     footer {
         display: none;
-    }
+    } */
 
-    .sidebarGo {
+    /* .sidebarGo {
         transform: translate(0px, -550px);
         position: absolute;
+    } */
+
+    footer{
+        font-size: 0.6rem;
     }
 
-    .arrow {
-        width: 21px;
-
-    }
 
     .devInfo {
         font-size: 15px;
         margin-top: 60px;
-    }
+    } 
 
 
     .infoContainer {
         flex-direction: column;
-        padding-top: 30px;
+        padding-top: 0px;
         margin-left: 30px;
     }
+ 
 
     .devPic img {
         width: 70vw;
@@ -848,7 +859,7 @@ footer {
         z-index: -1;
     }
 
-    .btn {
+ .btn { 
         font-size: 14px;
     }
 
@@ -856,7 +867,7 @@ footer {
         width: 18px;
         margin: 8px;
     }
-}
+}  
 
 @media (max-width:350px) {
     .infoContainer {
@@ -898,11 +909,9 @@ footer {
     }
 
     .devPic img {
-        position:relative;
         width: 45vw;
         margin-left: 200px;
         margin-top: -65px;
-        z-index:-1;
     }
 
     .devInfo {
@@ -915,7 +924,7 @@ footer {
 @media screen and (max-width:600px) {
 
     .main-skills {
-        padding: 70px 15px;
+        padding: 50px 20px;
     }
 
     .main-skills p {
@@ -993,7 +1002,7 @@ footer {
 @media screen and (max-width:350px) {
 
     .main-skills {
-        padding: 70px 10px;
+        padding: 50px 15px;
     }
 
     .skill {
@@ -1034,7 +1043,7 @@ footer {
 @media (max-width:600px) {
     .work-container {
         width: 100vw;
-        padding: 70px 10px;
+        padding: 50px 10px;
     }
 
     .project-box {
@@ -1044,7 +1053,7 @@ footer {
 
 @media (max-width:350px) {
     .work-container {
-        padding: 70px 4px;
+        padding: 50px 4px;
     }
 
     .project-box {
@@ -1060,7 +1069,7 @@ footer {
 @media screen and (max-width:750px) {
     .contact-Container {
         margin: 0px 15px;
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     .contactform {
@@ -1070,7 +1079,7 @@ footer {
 
     .contactform h1 {
         padding: 14px 7px;
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .form-control {
@@ -1090,7 +1099,7 @@ footer {
     }
 
     .e-help {
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .form-check-input {
@@ -1106,10 +1115,40 @@ footer {
 }
 
 /* >>>About-media>>>> */
+@media (max-width: 600px) {
+
+    .about-container {
+        padding: 50px 15px;
+    }
+
+    .info-col-1 {
+        font-size: 1.3em;
+        margin-top: 0.3em;
+        padding-bottom: 3px;
+    }
+
+    .gd1 {
+        margin-top: 1em;
+    }
+
+    .gd2 {
+        margin-top: 1em;
+    }
+
+    .year {
+        margin: 0px 0.5em;
+        font-size: 2em;
+    }
+
+    .gd3 {
+        margin-top: 0.6rem;
+    }
+}
+
 @media (max-width:600px) {
 
     .about-Container {
-        padding: 70px 15px;
+        padding: 50px 15px;
     }
     
     .info-col-1 {
@@ -1139,7 +1178,7 @@ footer {
 @media (max-width:350px) {
 
     .about-Container {
-        padding: 70px 8px;
+        padding: 50px 8px;
     }
 
     .gen-info-1 {
