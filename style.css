@@ -306,6 +306,7 @@ footer {
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .enquiry:focus {
@@ -339,7 +340,6 @@ footer {
     width: 13px;
     margin-right: 5px;
     cursor: pointer;
-    margin-left: 5px;
 }
 
 .btn-primary {
