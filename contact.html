@@ -11,6 +11,12 @@
 
 <body>
   <div class="container">
+    <div class="popup" id="popup">
+            <img src="images\Home-img\popup.png" alt="Pop Img">
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button type="submit" class="btn-1" onclick="closepopup()">OK</button>
+    </div>
     <div class="sidebar sidebarGo">
       <img src="images\Home-img\portfolio-logo.png.jpg" alt="Logo">
             <h1 class="f-name">Suhel</h1>
@@ -56,7 +62,7 @@
               <input type="checkbox" class="form-check-input" id="isclient">
               <label class="e-help" for="isclient">I want you to work on a project with me </label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" onclick="openpopup()">Submit</button>
           </form>
         </div>
       </div>
