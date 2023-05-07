@@ -258,7 +258,7 @@ footer {
 
 .contact-Container {
     margin: 0px 80px;
-    padding-top: 70px;
+    padding-top: 17px;
 }
 
 
@@ -272,6 +272,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin : 0 auto;
 }
 
 
@@ -293,6 +294,7 @@ footer {
     padding: 7px 0px;
     text-align: center;
     cursor: pointer;
+    margin-left : 5px;
 }
 
 .mb-3 input:focus {
@@ -323,18 +325,21 @@ footer {
     font-size: 11px;
     color: black;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 .form-check {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 5px;
 }
 
 .form-check-input {
     width: 13px;
     margin-right: 5px;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .btn-primary {
@@ -345,6 +350,7 @@ footer {
     box-shadow: none;
     transition: none;
     border-radius: 6px;
+    margin-left: 5px;
 }
 
 
