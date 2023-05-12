@@ -531,6 +531,10 @@ footer {
     margin-top: 1.2em;
 }
 
+.gd2 h4 {
+    border-bottom: none;
+}
+
 .year {
     margin: 0px 0.5em;
     font-size: 2.2em;
@@ -930,10 +934,10 @@ footer {
 
 
 @media (max-width:602px) {
-    .devPic img {
-        width: 45vw;
-        height: 50vh;
-    }
+    
+    .sidebar nav li{
+       padding: 1.3rem 0;
+    } 
 
     .infoContainer{
         margin-top: 70px;
@@ -946,21 +950,25 @@ footer {
         width: 170px;
         height: 350px;
     }
+    
+    .devPic img {
+        width: 45vw;
+        height: 50vh;
+    }
 
     .btn-box {
-        width: 155px;
-        height: 28px;
+        width: 153px;
+        height: 30px;
         background-color: white;
     }
 
     .btn {
         font-size: 15px;
         padding: 0.3rem 0.8rem;
-        width: 120px;
     }
     
     .btn-box img {
-        width: 28px;
+        width: 30px;
     }
 
     .popup {
