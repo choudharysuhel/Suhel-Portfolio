@@ -902,9 +902,23 @@ footer {
     h4 {
         font-size: 0.9rem;
     }
+    
+    .devInfo{
+        width: 210px;
+    }
+
+    .devPic{
+        margin-left: auto;
+        order: 2;
+    }
+
+    .moreabout-2 {
+        margin-bottom: auto;
+        order: 3;
+    }
 
     .devPic img{
-        width: 39vw;
+        width: 45vw;
         height: 60vh;
         border-radius: 10px;
     }
@@ -934,13 +948,14 @@ footer {
     }
 
     .btn-box {
-        width: 155px;
+        width: 150px;
         height: 28px;
+        background-color: white;
     }
 
     .btn {
         font-size: 15px;
-        padding: 0.2rem 0.7rem;
+        padding: 0.3rem 0.8rem;
     }
     
     .btn-box img {
@@ -1155,25 +1170,20 @@ footer {
     }
 
     .enquiry {
-        height: 130px;
+        height: 150px;
         font-size: 16px;
         font-weight: 700;
         cursor: pointer;
-    }
-
-    .e-help {
-        font-size: 11px;
-    }
-
-    .form-check-input {
-        width: 12px;
-        margin-right: 6px;
+        margin-left: 5px;
     }
 
     .btn-primary {
         width: 85vw;
         margin: 12px 0px;
         margin-bottom: 30px;
+        margin-left: 5px;
+        color: black;
+        background-color: white;
     }
 }
 
