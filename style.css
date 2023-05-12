@@ -700,8 +700,8 @@ footer {
 .hamburger {
     position: absolute;
     cursor: pointer;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     z-index: 20;
 }
 
@@ -825,11 +825,6 @@ footer {
         font-size: 2rem;
     }
 
-
-    .sidebar nav li {
-        font-size: 1.3rem;
-        padding: 0.7rem 0;
-    }
 }
 
 
@@ -864,7 +859,7 @@ footer {
 
      .sidebar {
         position: fixed;
-        width: 200px;
+        width: 250px;
     }
 
     .sidebar nav {
@@ -874,6 +869,7 @@ footer {
     .arrow {
         position: fixed;
         width: 21px;
+        width: 229px;
     }
 
     footer{
