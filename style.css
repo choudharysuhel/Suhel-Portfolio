@@ -928,7 +928,7 @@ footer {
 
     .devInfo{
         width: 170px;
-        height: 300px;
+        height: 350px;
     }
 
     .btn-box {
@@ -938,6 +938,7 @@ footer {
 
     .btn {
         font-size: 16px;
+        padding: 0.2rem 0.7rem;
     }
     
     .btn-box img {
