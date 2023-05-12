@@ -19,10 +19,12 @@ body{
 
 h1 {
     font-size: 2rem;
+    color: white;
 }
 
 h2 {
     font-size: 1.6rem;
+    color: white;
 }
 
 h3 {
@@ -360,7 +362,7 @@ footer {
 .contactform {
     font-family: 'Fira Sans', sans-serif;
     /* border: 2px solid red; */
-    background-color: #193e39b0;
+    background-color: black;
     width: 50vw;
     height: auto;
     border-radius: 10px;
@@ -377,6 +379,7 @@ footer {
     font-size: 22px;
     font-weight: 900;
     text-align: center;
+    color: white;
 }
 
 .mb-3 {
@@ -464,6 +467,7 @@ footer {
     font-size: 0.9em;
     font-weight: 300;
     padding-top: 0.8em;
+    color: white;
 }
 
 
@@ -551,6 +555,7 @@ footer {
 .main-skills p {
     margin-top: 8px;
     margin-bottom: 15px;
+    color: white;
 
 }
 
@@ -625,13 +630,12 @@ footer {
 }
 
 .col-4-1 {
-    background-color: #190d0d;
-    ;
+    background-color: #423e1a;
 }
 
 .col-4-2 {
     width: 381px;
-    background-color: #000000e3;
+    background-color: #746d32;
 }
 
 .col-4-2 span {
@@ -723,6 +727,7 @@ footer {
 
 #work-p {
     margin: 15px 0px;
+    color: white;
 }
 
 #box-container {
@@ -817,12 +822,13 @@ footer {
     }
 
     .sidebar img {
-        width: 75px;
+        width: 100px;
         padding-top: 35px;
     }
 
     .f-name {
         font-size: 2rem;
+        margin: 5px 0px;
     }
 
 }
@@ -869,7 +875,7 @@ footer {
     .arrow {
         position: fixed;
         width: 21px;
-        width: 229px;
+        margin-left: 229px;
     }
 
     footer{
