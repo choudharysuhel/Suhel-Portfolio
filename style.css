@@ -323,7 +323,6 @@ footer {
 }
 
 .btn-box{
-    border: 1px solid white;
     display: flex;
     width: 167.5px;
     margin-top: 5px;
@@ -342,7 +341,7 @@ footer {
 }
 
 .btn-box img{
-    width: 32px;
+    width: 33px;
 }
 .btn-box .btn:hover{
     color: black;
@@ -933,11 +932,11 @@ footer {
 
     .btn-box {
         width: 151.5px;
-        height: 29px;
+        height: 28px;
     }
 
     .btn {
-        font-size: 16px;
+        font-size: 15px;
         padding: 0.2rem 0.7rem;
     }
     
