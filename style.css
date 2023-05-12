@@ -903,6 +903,7 @@ footer {
 
     .devPic img{
         width: 39vw;
+        height: 60vh;
         border-radius: 10px;
     }
 
@@ -912,20 +913,22 @@ footer {
 }
 
 
-@media (max-width:600px) {
+@media (max-width:602px) {
     .devPic img {
         width: 45vw;
-        height: 70vh;
+        height: 50vh;
     }
 
     .infoContainer{
         margin-top: 70px;
-        margin-left: 20px;
-        width: 90vw;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 95vw;
     }
 
     .devInfo{
         width: 170px;
+        height: 300px;
     }
 
     .btn-box {
@@ -957,12 +960,6 @@ footer {
 }
 
 @media (max-width:380px) {
-
-    .infoContainer{
-        width: 95vw;
-        margin-left:10px ;
-        margin-right:10px ;
-    }
 
     .moreabout-2 {
         width: 250px;
