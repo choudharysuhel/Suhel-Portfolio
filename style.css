@@ -125,7 +125,6 @@ h4 {
     justify-content: center;
     margin: 7px 0px;
     font-weight: bold;
-    text-shadow: 1px 1px 3px var(--primary-color);
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -521,7 +520,7 @@ footer {
 }
 
 .info-col-3 {
-    color: white;
+    color: rgb(214 225 225);
     font-size: 0.9em;
     margin-left: 1em;
 }
@@ -722,7 +721,7 @@ footer {
 
 
 
-/* >>>>>>>>>>Work Section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* >>>>>>>>>>My Projects Section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .work-container {
     width: 100vw;
@@ -798,7 +797,6 @@ footer {
 
 .box p {
     font-size: 16px;
-    color: rgb(214 225 225);
     font-family: 'Roboto', sans-serif;
     margin-top: 4px;
 }
@@ -1185,27 +1183,30 @@ footer {
     }
 
     .mb-3 input {
-        font-size: 18px;
+        font-size: 17px;
         text-align: left;
-        padding: 11px 0px;
+        padding: 10px 0px;
         padding-left: 8px;
     }
 
     .enquiry {
         height: 180px;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 700;
         cursor: pointer;
         margin-left: 8px;
+        padding-left: 8px;
     }
 
     .btn-primary {
         width: 85vw;
+        font-size: 17px
         margin: 12px 0px;
         margin-bottom: 30px;
         margin-left: 8px;
         color: black;
         background-color: white;
+        padding: 10px 0px;
     }
 }
 
