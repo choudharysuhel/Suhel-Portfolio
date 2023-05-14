@@ -909,6 +909,10 @@ footer {
     .intro .about {
         font-size: 1.5em;
     }
+    
+    h1{
+        font-size: 1.7rem;
+    }
 
     h4 {
         font-size: 0.9rem;
@@ -941,6 +945,10 @@ footer {
 
 
 @media (max-width:602px) {
+    
+    h1{
+        font-size: 1.5rem;
+    }
     
     .sidebar nav li{
        padding: 1.3rem 0;
